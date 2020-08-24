@@ -29,7 +29,7 @@
                                     </div>
                                     <div class="row m-1">
                                         <div class="col-12 qty need-sm-gap">
-                                            <form method="POST" action="{{route('soap.update')}}">
+                                            <form method="POST" action="/cart">
                                                 <span class="minus bg-dark" data-minus="{{ str_replace(' ','_',$item['name']) }}">-</span>
                                                 <input type="number" class="num" name="{{ $item['name'] }}" value="{{ $item['quantity']}}" id="{{str_replace(' ','_',$item['name'])}}">
                                                 <span class="plus bg-dark" data-plus="{{ str_replace(' ','_',$item['name']) }}">+</span>
@@ -102,7 +102,7 @@ $( document ).ready(function() {
     $(document).on('click','.plus',function(e){
         $('#'+e.target.dataset.plus).val(parseInt($('#'+e.target.dataset.plus).val()) + 1 );
         $.ajax({
-            url: "{{route('soap.update')}}",
+            url: "/cart",
             type: 'POST',
             /* send the csrf-token and the input to the controller */
             data: {_token: CSRF_TOKEN, 
