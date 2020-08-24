@@ -61,7 +61,8 @@ class ShopController extends Controller
         Session::put('cart', $newCart);
         Session::put('cartNum', $cart->amount);
         Session::save();
-        return view('shop.product', ['product' => $product]);
+        // return view('shop.product', ['product' => $product]);
+        return redirect('product/'.$product_name);
     }
  
     public function showCart(){
