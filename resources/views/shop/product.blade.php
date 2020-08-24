@@ -19,7 +19,7 @@
                         <div class="col-12">
                             <h5>${{ $product->price }}</h5>
                         </div>
-                        <form method="GET" action="/addproduct/{{$product->name}}">
+                        <form method="POST" action="/product/{{$product->name}}">
                         @csrf
                         <div class="col-12 m-3">
                             <div class="qty">

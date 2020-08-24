@@ -29,7 +29,7 @@ Route::get('collection', ['uses' => 'ShopController@showCollection', 'as' => 'so
 
 Route::get('product/{product_name}', ['uses' => 'ShopController@showProduct']);
 
-Route::get('addproduct/{product_name}', ['uses' => 'ShopController@addProduct']);
+Route::post('product/{product_name}', ['uses' => 'ShopController@addProduct']);
 
 Route::get('cart', ['uses' => 'ShopController@showCart', 'as' => 'soap.cart']);
  
