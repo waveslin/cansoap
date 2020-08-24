@@ -19,7 +19,7 @@
                         <div class="col-12">
                             <h5>${{ $product->price }}</h5>
                         </div>
-                        <form method="GET" action="{{route('soap.add', ['product_name' => $product->name])}}">
+                        <form method="GET" action="/addproduct/{{$product->name}}">
                         @csrf
                         <div class="col-12 m-3">
                             <div class="qty">

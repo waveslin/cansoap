@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-8 bg-white payment-container">
-                    <form action="{{route('soap.payment')}}" method="POST" class="needs-validation" id="payment-form" novalidate>
+                    <form action="/payment" method="POST" class="needs-validation" id="payment-form" novalidate>
                     @csrf
                         <div class="col-12 shipping-info mt-4">
                             <div class="form-row">

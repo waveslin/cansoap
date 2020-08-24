@@ -72,7 +72,7 @@
                             <span class="font-weight-bold" id="total">${{$summary['total']}}</span>
                         </div>
                         <div class="col-12 m-2 d-flex flex-column justify-content-around">
-                            <a class="btn btn-primary btn-lg btn-block checkout-btn" href="{{route('soap.checkout')}}">Check Out</a>
+                            <a class="btn btn-primary btn-lg btn-block checkout-btn" href="/payment">Check Out</a>
                         </div>
                     </div>
                 </div>

@@ -27,18 +27,18 @@ Route::get('wholesale', ['uses' => 'ShopController@showWholesale', 'as' => 'soap
 
 Route::get('collection', ['uses' => 'ShopController@showCollection', 'as' => 'soap.collection']);
 
-Route::get('product/{product_name}', ['uses' => 'ShopController@showProduct', 'as' => 'soap.product']);
+Route::get('product/{product_name}', ['uses' => 'ShopController@showProduct']);
 
-Route::get('addproduct/{product_name}', ['uses' => 'ShopController@addProduct', 'as' => 'soap.add']);
+Route::get('addproduct/{product_name}', ['uses' => 'ShopController@addProduct']);
 
 Route::get('cart', ['uses' => 'ShopController@showCart', 'as' => 'soap.cart']);
  
 Route::post('cart', ['uses' => 'ShopController@updateCart', 'as' => 'soap.update']);
 
-Route::get('remove/{product_name}', ['uses' => 'ShopController@removeCart', 'as' => 'soap.remove']);
+Route::get('remove/{product_name}', ['uses' => 'ShopController@removeCart']);
 
-Route::get('payment', ['uses' => 'ShopController@getPayment', 'as' => 'soap.checkout', 'middleware' => 'check.cart']);
+Route::get('payment', ['uses' => 'ShopController@getPayment', 'middleware' => 'check.cart']);
 
-Route::post('payment', ['uses' => 'ShopController@makePayment', 'as' => 'soap.payment', 'middleware' => 'check.cart']);
+Route::post('payment', ['uses' => 'ShopController@makePayment', 'middleware' => 'check.cart']);
 
 Route::get('receipt/{oid}', ['uses' => 'pdfController@makeReceipt', 'as' => 'soap.receipt']);
