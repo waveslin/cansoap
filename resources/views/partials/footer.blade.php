@@ -3,11 +3,11 @@
     <div class="row justify-content-between">
         <div class="col-sm-12 col-md-6">
           <ul>
-            <li class="footer-list"><a class="link footer-link" href="{{route('soap.about">About Us</a></li>
-            <li class="footer-list"><a class="link footer-link" href="{{route('soap.contact">Contact Us</a></li>
-            <li class="footer-list"><a class="link footer-link" href="{{route('soap.order">Order Info</a></li>
-            <li class="footer-list"><a class="link footer-link" href="{{route('soap.privacy">Privacy Policy</a></li>
-            <li class="footer-list"><a class="link footer-link" href="{{route('soap.wholesale">Wholesale Info</a></li>
+            <li class="footer-list"><a class="link footer-link" href="{{route('soap.about')}}">About Us</a></li>
+            <li class="footer-list"><a class="link footer-link" href="{{route('soap.contact')}}">Contact Us</a></li>
+            <li class="footer-list"><a class="link footer-link" href="{{route('soap.order')}}">Order Info</a></li>
+            <li class="footer-list"><a class="link footer-link" href="{{route('soap.privacy')}}">Privacy Policy</a></li>
+            <li class="footer-list"><a class="link footer-link" href="{{route('soap.wholesale')}}">Wholesale Info</a></li>
           </ul>
         </div>
         <div class="col-sm-12 col-md-6 container">
