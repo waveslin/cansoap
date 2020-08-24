@@ -132,7 +132,7 @@ $( document ).ready(function() {
             $('#'+e.target.dataset.minus).val(1);
         }else{
             $.ajax({
-            url: "{{route('soap.update')}}",
+            url: "/cart",
             type: 'POST',
             /* send the csrf-token and the input to the controller */
             data: {_token: CSRF_TOKEN, 

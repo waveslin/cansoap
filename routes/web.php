@@ -33,7 +33,7 @@ Route::get('addproduct/{product_name}', ['uses' => 'ShopController@addProduct'])
 
 Route::get('cart', ['uses' => 'ShopController@showCart', 'as' => 'soap.cart']);
  
-Route::post('cart', ['uses' => 'ShopController@updateCart', 'as' => 'soap.update']);
+Route::post('cart', ['uses' => 'ShopController@updateCart']);
 
 Route::get('remove/{product_name}', ['uses' => 'ShopController@removeCart']);
 
