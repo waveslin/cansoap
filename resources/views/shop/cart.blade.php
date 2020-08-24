@@ -40,7 +40,7 @@
                                         <div class="col-12 need-sm-gap">
                                             <i class="fas fa-trash-alt"></i>
                                             <span>
-                                                <a class="text-muted" href="{{route('soap.remove', $item['name'])}}">Remove</a>
+                                                <a class="text-muted" href="remove/{{$item['name']}}">Remove</a>
                                             </span>
                                         </div>
                                    </div>
