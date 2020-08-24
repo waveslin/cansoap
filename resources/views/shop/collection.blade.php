@@ -12,7 +12,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-3 item">
                     <div class="container item-content">
                         <a class="link item-link" href="{{route('soap.product', $product->name)}}">
-                            <img class="container item-img" src="{{asset('img/products/'.$product->image)}}">
+                            <img class="container item-img" src="img/products/{{$product->image}}">
                             <div class="container">
                                 <h4 class="item-name">{{$product->name}}</h4>
                                 <h6 class="item-price">{{$product->price}}</h6>

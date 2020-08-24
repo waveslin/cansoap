@@ -16,7 +16,7 @@
             </div>
             <div class="row">
                 <div class="col info-container">
-                    <img class="about-img" src="{{asset('img/about_image.jpg')}}" alt="">
+                    <img class="about-img" src="/img/about_image.jpg" alt="">
                 </div>
             </div>
             <div class="row">

@@ -9,7 +9,7 @@
         <div class="container info-container">
             <div class="row">
                 <div class="col-sm-12 col-md-6 text-center">
-                    <img src="{{ asset('img/products/'.$product->image) }}" alt="" class="product-img rounded mx-auto d-block">
+                    <img src="/img/products/{{$product->image}}" alt="" class="product-img rounded mx-auto d-block">
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="row">

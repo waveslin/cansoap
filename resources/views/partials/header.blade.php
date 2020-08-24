@@ -2,7 +2,7 @@
     <div class="container">
       <div id="head">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="{{route('soap.index')}}"><img class="logo-img" src="{{asset('img/icon/logo.png')}}"></a>
+            <a class="navbar-brand" href="{{route('soap.index')}}"><img class="logo-img" src="/img/icon/logo.png"></a>
             <a class="title-link" href="{{route('soap.index')}}"><p class="nav-title">Wavesoap</p></a>
             <button class="navbar-toggler  navbar-light bg-lightn" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
