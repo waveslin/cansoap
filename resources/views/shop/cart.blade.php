@@ -18,12 +18,12 @@
                         <div class="col-12 m-1 p-2">
                             <div class="cart-item row">
                                <div class="col-sm-12 col-md-4 cart-item-img-container">
-                                    <img src="{{asset('img/products/'.$item['image'])}}" class="cart-item-image" alt="">
+                                    <img src="/img/products/{{$item['image']}}" class="cart-item-image" alt="">
                                </div>
                                <div class="col-sm-12 col-md-8 d-flex flex-column justify-content-around">
                                    <div class="row m-1">
                                         <div class="col-12 d-flex justify-content-between cart-item-info">
-                                            <span class="font-weight-bold need-sm-gap"><a class="text-dark" href="{{route('soap.product', $item['name'])}}">{{$item['name']}}</a></span>
+                                            <span class="font-weight-bold need-sm-gap"><a class="text-dark" href="/product/{{$item['name']}}">{{$item['name']}}</a></span>
                                             <span class="font-weight-bold need-sm-gap">${{$item['price']}}</span>
                                         </div>
                                     </div>
