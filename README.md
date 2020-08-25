@@ -2,6 +2,7 @@
 
 ### `Author : Juanru Lin`
 
+#### Demo website
 Open ***[wavesoap](https://wavesoap.herokuapp.com/)*** to view it in the website.
 
 #### language | framwork | library | database | API | technique
@@ -9,7 +10,7 @@ Open ***[wavesoap](https://wavesoap.herokuapp.com/)*** to view it in the website
 - Html, CSS
 - Bootstrap
 - Jquery (Javascript)
-    - AJAX
 - MySQL 
+- AJAX
 - Stripe API
 
