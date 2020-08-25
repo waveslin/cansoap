@@ -1,4 +1,4 @@
-## `Wavesoap (ecommerce website)`
+## `Wavesoap (Ecommerce website)`
 
 ### `Author : Juanru Lin`
 
