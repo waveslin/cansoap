@@ -3,7 +3,7 @@
 ### `Author : Juanru Lin`
 
 #### `Demo website`
-Open ***[wavesoap](https://wavesoap.herokuapp.com/)*** to view it in the website.
+Enter ***[wavesoap](https://wavesoap.herokuapp.com/)*** to view the website.
 This website is hosted on Heroku, so it might have a bit start up delay.
 
 #### `Description`
