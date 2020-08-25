@@ -9,7 +9,7 @@ This website is hosted on Heroku, so it might have a bit start up delay.
 #### `Description`
 This project called Wavesoap. It is a simple ecommerce website which sells bar soap. customers can add, update and delete items in the shopping cart. 
 In order to purchase the items, customers need to enter their personal information (Mailling address & contact information & card information).
-The functionality of ecommerce is supported by [Stripe](https://stripe.com/en-ca). After checkout customer will see their receipt and are able to download it in PDF format.
+The ecommerce functionality is supported by [Stripe](https://stripe.com/en-ca). After checkout customer will see their receipt and are able to download it in PDF format.
 This project is hosted in Heroku and is not a real production for selling bar soap. If you would like to test the project, please remember to insert fake personal information.
 Furthermore you can find testing card number [HERE](https://stripe.com/docs/testing). 
 
