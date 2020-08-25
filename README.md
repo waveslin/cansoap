@@ -25,4 +25,4 @@ Furthermore you can find testing card number [HERE](https://stripe.com/docs/test
 
 #### `references`
 - Most of the content (image & information) of the website is from [SOAPSTONES](https://soapstones.ca/)
-- Some icon is from font-awesome 
+- Some icons are from font-awesome 
