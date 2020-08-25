@@ -2,10 +2,19 @@
 
 ### `Author : Juanru Lin`
 
-#### Demo website
+#### `Demo website`
 Open ***[wavesoap](https://wavesoap.herokuapp.com/)*** to view it in the website.
+This website is hosted on Heroku, so it might have a bit start up delay.
 
-#### language | framwork | library | database | API | technique
+#### `Description`
+This project called Wavesoap. It is a simple ecommerce website which sells bar soap. customers can add items to the shopping cart without login.
+In order to purchase the items, customers need to enter their personal information (Mailling address & contact information & card information).
+The functionality of ecommerce is supported by [Stripe](https://stripe.com/en-ca). After checkout customer will see their receipt and are able to download it in PDF format.
+This project is hosted in Heroku and is not a real production for selling bar soap. If you would like to test the project, please remember to insert fake personal information.
+Furthermore you can find testing card number [HERE](https://stripe.com/docs/testing). 
+
+
+#### `language | framwork | library | database | API | technique`
 - Laravel (PHP)
 - Html, CSS
 - Bootstrap
@@ -14,3 +23,6 @@ Open ***[wavesoap](https://wavesoap.herokuapp.com/)*** to view it in the website
 - AJAX
 - Stripe API
 
+#### `reference`
+- Most of the content (image & information) of the website is from [SOAPSTONES](https://soapstones.ca/)
+- Some icon is from font-awesome 
