@@ -45,8 +45,8 @@
                     <th style="padding:5px 30px; text-align: center; border: 1px solid black;">{{$order->shipping_fee}}</th>
                 </tr>
                 <tr>
-                    <th style="padding:5px 30px; text-align: center;">Total Cost</th>
-                    <th style="padding:5px 30px; text-align: center;">{{$order->total}}</th>
+                    <th style="padding:5px 30px; text-align: center; border: 1px solid black;">Total Cost</th>
+                    <th style="padding:5px 30px; text-align: center; border: 1px solid black;">{{$order->total}}</th>
                 </tr>
             </thead>
         </table>
