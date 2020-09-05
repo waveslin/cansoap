@@ -33,6 +33,10 @@
             </tbody>
             <thead>
                 <tr>
+                    <th style="padding:5px 30px; text-align: center;">Section</th>
+                    <th style="padding:5px 30px; text-align: center;">Price</th>
+                </tr>
+                <tr>
                     <th style="padding:5px 30px; text-align: center; border: 1px solid black;">Taxes</th>
                     <th style="padding:5px 30px; text-align: center; border: 1px solid black;">{{$order->taxes}}</th>
                 </tr>
