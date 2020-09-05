@@ -56,7 +56,7 @@
           <img class="container item-img" src="/img/products/{{$product->image}}">
           <div class="container">
             <h4 class="item-name">{{$product->name}}</h4>
-            <h6 class="item-price">{{$product->price}}</h6>
+            <h6 class="item-price">${{$product->price}}</h6>
           </div>
         </a>
       </div>
