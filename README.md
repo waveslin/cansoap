@@ -1,4 +1,4 @@
-## Wavesoap (E-commerce website)
+## Wavesoap
 
 ### `Author: Juanru Lin`
 
