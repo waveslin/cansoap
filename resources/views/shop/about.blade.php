@@ -16,6 +16,13 @@
             </div>
             <div class="row">
                 <div class="col info-container">
+                    <div class="alert alert-warning text-center mr-3 ml-3 mb-1 mt-1" role="alert">
+                    This is a Non-commercial demo website; No real product will be on sale.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col info-container">
                     <img class="about-img" src="/img/about_image.jpg" alt="">
                 </div>
             </div>

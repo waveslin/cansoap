@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col">
           <p class="follow-title">Copyright © 2020, Wavesoap and Ecommerce by <a class="footer-link" href="https://stripe.com">Stripe</a>, </br> 
-            see more information and view code at Github: <a class="footer-link" href="https://github.com/waveslin"> waveslin </a>
+            see more information and view code at Github: <a class="footer-link" href="https://github.com/waveslin/wavesoap"> waveslin </a>
           </p>
           <ul class="row d-flex justify-content-center p-0">
             <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/mastercard.png"></li>
