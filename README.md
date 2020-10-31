@@ -25,3 +25,4 @@ Furthermore, you can find testing card numbers [HERE](https://stripe.com/docs/te
 
 #### `references`
 - Some icons are from font-awesome 
+- Images are from http://pngimg.com/ and https://unsplash.com/
