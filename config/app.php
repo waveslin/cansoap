@@ -52,9 +52,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://wavesoap.herokuapp.com/'),
+    'url' => env('APP_URL', 'https://wavesoap.herokuapp.com'),
 
-    'asset_url' => env('ASSET_URL', 'https://wavesoap.herokuapp.com/'),
+    'asset_url' => env('ASSET_URL', 'https://wavesoap.herokuapp.com'),
 
     /*
     |--------------------------------------------------------------------------

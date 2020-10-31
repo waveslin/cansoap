@@ -101,9 +101,9 @@
                                 <div class="col-12 card-info-head d-flex justify-content-between">
                                     <p class="font-weight-bold  payment-title">Card Information</p>
                                     <div>
-                                        <img class="card-img" src="{{asset('img/icon/mastercard.png')}}">
-                                        <img class="card-img" src="{{asset('img/icon/visa.png')}}">
-                                        <img class="card-img" src="{{asset('img/icon/amex.png')}}">
+                                        <img class="card-img" src="img/icon/mastercard.png">
+                                        <img class="card-img" src="img/icon/visa.png">
+                                        <img class="card-img" src="img/icon/amex.png">
                                     </div>
                                 </div>
                             </div>
@@ -150,6 +150,6 @@
 @section('script')
 
 <script src="https://js.stripe.com/v3/"></script>
-<script src="{{asset('js/checkout.js')}}"></script>
+<script src="js/checkout.js"></script>
 
 @endsection

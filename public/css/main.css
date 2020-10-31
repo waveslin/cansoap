@@ -210,7 +210,7 @@ ul{
 	font-size: 1.5rem;
 }
 
-@media only screen and (min-width: 433px) {
+@media only screen and (min-width: 476px) {
 	.nav-title {
 	  font-size: 3rem;
 	}
