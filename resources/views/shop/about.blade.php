@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col info-container">
+                <div class="col">
                     <img class="about-img" src="/img/about_image.jpg" alt="">
                 </div>
             </div>

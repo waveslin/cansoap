@@ -64,12 +64,27 @@ ul{
 .item-content{
 	/*background-color: #15b315;*/
 	height: 100%;
-	padding: 1rem;
 }
 
 .item-content:hover{
 	opacity: 0.9;
 	border: 0.1rem solid #ddd;
+}
+
+.item-img-container{
+	box-sizing: border-box;
+	height: 60%;
+	padding: 1rem;
+	object-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-body-container{
+	box-sizing: border-box;
+	height: 30%;
+	padding: 1rem;
 }
 
 .product-img{
@@ -80,7 +95,7 @@ ul{
 
 .item-img{
 	max-width: 100%;
-	max-height: 60%
+	max-height: 100%
 }
 
 .item-name,
