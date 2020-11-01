@@ -24,5 +24,5 @@ Furthermore, you can find testing card numbers [HERE](https://stripe.com/docs/te
 - Stripe API
 
 #### `references`
-- Most of the content (image & information) of the website is from [SOAPSTONES](https://soapstones.ca/)
 - Some icons are from font-awesome 
+- Images are from http://pngimg.com/ and https://unsplash.com/
