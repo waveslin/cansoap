@@ -223,6 +223,10 @@ ul{
 	font-size: 1.5rem;
 }
 
+section.standard-heigth{
+	min-height: 70vh;
+}
+
 @media only screen and (min-width: 476px) {
 	.nav-title {
 	  font-size: 3rem;
