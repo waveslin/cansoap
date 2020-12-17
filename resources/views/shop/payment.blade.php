@@ -101,9 +101,9 @@
                                 <div class="col-12 card-info-head d-flex justify-content-between">
                                     <p class="font-weight-bold  payment-title">Card Information</p>
                                     <div>
-                                        <img class="card-img" src="img/icon/mastercard.png">
-                                        <img class="card-img" src="img/icon/visa.png">
-                                        <img class="card-img" src="img/icon/amex.png">
+                                        <img class="card-img" src="img/icon/mastercard.jpg">
+                                        <img class="card-img" src="img/icon/visa.jpg">
+                                        <img class="card-img" src="img/icon/amex.jpg">
                                     </div>
                                 </div>
                             </div>

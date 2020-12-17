@@ -7,13 +7,13 @@
 @section('content')
 <section class="container home">
     <div class="row">
-        <div id="slider" class="carousel slide" data-ride="carousel">
+        <div id="slider" class="carousel slide home-slider" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#slider" data-slide-to="0" class="active"></li>
             <li data-target="#slider" data-slide-to="1"></li>
             <li data-target="#slider" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner">
+          <div class="carousel-inner home-slider">
             <div class="carousel-item banner-img active">
               <img class="d-block w-100 banner-img" src="/img/banners/banner1.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
@@ -21,14 +21,14 @@
                 <p>100% handmade soap</p>
               </div>
             </div>
-            <div class="carousel-item banner-img">
+            <div class="carousel-item banner-img home-slider">
               <img class="d-block w-100 banner-img" src="/img/banners/banner2.jpg" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
                 <h2>Wavesoap</h2>
                 <h5>100% good smell</h5>
               </div>
             </div>
-            <div class="carousel-item banner-img">
+            <div class="carousel-item banner-img home-slider">
               <img class="d-block w-100 banner-img" src="/img/banners/banner3.jpg" alt="Third slide">
               <div class="carousel-caption d-none d-md-block">
                 <h1>Best soap you can found in the world</h1>

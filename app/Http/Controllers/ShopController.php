@@ -16,7 +16,7 @@ class ShopController extends Controller
 {
     //
     public function showIndex(){
-        $products = Product::skip(1)->take(4)->get();
+        $products = Product::skip(1)->take(8)->get();
         return view('shop.index', ['products' => $products]);
     }
 

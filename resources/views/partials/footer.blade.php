@@ -25,9 +25,9 @@
             see more information and view code at Github: <a class="footer-link" href="https://github.com/waveslin/wavesoap"> waveslin </a>
           </p>
           <ul class="row d-flex justify-content-center p-0">
-            <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/mastercard.png"></li>
-            <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/visa.png"></li>
-            <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/amex.png"></li>
+            <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/mastercard.jpg"></li>
+            <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/visa.jpg"></li>
+            <li class="footer-list footer-follow"><img class="footer-img" src="/img/icon/amex.jpg"></li>
           </ul>
         </div>
     </div>

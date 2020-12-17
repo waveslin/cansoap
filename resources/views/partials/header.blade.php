@@ -22,7 +22,7 @@
                   <a class="nav-link pt-3" href="{{route('soap.cart')}}">
                   <h6>
                     <span>Cart</span>
-                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fa fa-shopping-cart"></i>
                     @if(Session::has('cart'))
                     <span class="badge badge-warning" id="cartnum">
                     {{Session::get('cartNum')}}
