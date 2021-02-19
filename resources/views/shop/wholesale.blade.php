@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Wholesale Info -- Wavesoap
+    Wholesale Info -- Cansoap
 @endsection
 
 @section('content')
@@ -18,7 +18,7 @@
                 <div class="col info-container info-wholesale">
                     <p class="info-text">
                         If you are interested in becoming one of our amazing wholesalers, 
-                        please email wholesale@Wavesoap.ca or call us +1 (513) 222-2222.</br>
+                        please email wholesale@Cansoap.ca or call us +1 (513) 222-2222.</br>
                     </p>
                 </div>
             </div>

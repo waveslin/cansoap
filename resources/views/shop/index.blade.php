@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Wavesoap Shop
+    Cansoap Shop
 @endsection
 
 @section('content')
@@ -17,14 +17,14 @@
             <div class="carousel-item banner-img active">
               <img class="d-block w-100 banner-img" src="/img/banners/banner1.jpg" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Welcome to Wavesoap</h2>
+                <h2>Welcome to Cansoap</h2>
                 <p>100% handmade soap</p>
               </div>
             </div>
             <div class="carousel-item banner-img home-slider">
               <img class="d-block w-100 banner-img" src="/img/banners/banner2.jpg" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Wavesoap</h2>
+                <h2>Cansoap</h2>
                 <h5>100% good smell</h5>
               </div>
             </div>

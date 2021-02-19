@@ -1,10 +1,11 @@
 {
-    "name": "laravel/laravel",
+    "name": "cansoap",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "This is a e-commerce project.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "e-commerce"
     ],
     "license": "MIT",
     "require": {

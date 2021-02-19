@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Order Info -- Wavesoap
+    Order Info -- Cansoap
 @endsection
 
 @section('content')
@@ -81,7 +81,7 @@
                 <div class="col info-container">
                     <p class="info-text">
                         <span class="font-weight-bold"> Guarantee </span></br>
-                        Wavesoap values its customers and believes in its products. 
+                        Cansoap values its customers and believes in its products. 
                         If you are not satisfied with our products please contact us to arrange for a return and a full refund. 
                         We would like to understand any dissatisfaction so that we can address it quickly and in good faith. 
                         Suggestions from our customers are welcomed. 
@@ -95,8 +95,8 @@
                 <div class="col info-container">
                     <p class="info-text">
                         <span class="font-weight-bold"> Privacy </span></br>
-                        Wavesoap values your privacy.  
-                        Your personal information will only be used by Wavesoap to deliver upon our promise to offer you natural skincare products at affordable prices.  
+                        Cansoap values your privacy.  
+                        Your personal information will only be used by Cansoap to deliver upon our promise to offer you natural skincare products at affordable prices.  
                         We will not provide any of your information to anyone, for any reason, at any time. </br>
                     </p>
                 </div>

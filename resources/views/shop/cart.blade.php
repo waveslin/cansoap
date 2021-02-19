@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Shopping Cart  -- Wavesoap
+    Shopping Cart  -- Cansoap
 @endsection
 
 @section('content')

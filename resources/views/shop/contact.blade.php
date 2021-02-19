@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Contact US -- Wavesoap
+    Contact US -- Cansoap
 @endsection
 
 @section('content')

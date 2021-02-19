@@ -1,7 +1,7 @@
 @extends('layouts.page')
 
 @section('title')
-    Success paid -- Wavesoap
+    Success paid -- Cansoap
 @endsection
 
 @section('content')

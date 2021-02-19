@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Product  -- Wavesoap
+    Product  -- Cansoap
 @endsection
 
 @section('content')

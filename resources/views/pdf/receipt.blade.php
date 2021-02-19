@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receipt -- Wavesoap</title>
+    <title>Receipt -- Cansoap</title>
 </head>
 <body>
         <h5 style="margin: 0; padding:0; margin-left: 10px; margin-top: 20px;">Contact us</h5>
