@@ -65,6 +65,11 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        'public_pdf' => [
+            'driver' => 'local',
+            'root'   => public_path() . '/pdf',
+        ],
+
     ],
 
     /*
