@@ -14,6 +14,6 @@ class pdfController extends Controller
         $list = explode('|', $order->description);
         array_pop($list);
         $pdf = PDF::loadView('pdf.receipt', ['order'=> $order, 'list'=> $list]);  
-        return $pdf->download('wavesoap_receipt.pdf');
+        return $pdf->download('cansoap_receipt.pdf');
     }
 }

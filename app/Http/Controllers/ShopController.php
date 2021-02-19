@@ -214,7 +214,8 @@ class ShopController extends Controller
         $list = explode('|', $order->description);
         array_pop($list);
         $pdf = PDF::loadView('pdf.receipt', ['order'=> $order, 'list'=> $list]);  
-        Storage::put('public/pdf/receipt.pdf', $pdf->output());
+        $content = $pdf->download()->getOriginalContent();
+        Storage::put('public/pdf/receipt.pdf',$content) ;
 
         return view('shop.success', ['order'=> $order, 'list'=> $list]);
     }
