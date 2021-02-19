@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades;
-use Session;
-use Str;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Storage;
 use App\Cart;
 use App\Product;
 use App\Order;
+use Barryvdh\DomPDF\Facade as PDF;
 
 
 class ShopController extends Controller
@@ -207,6 +209,12 @@ class ShopController extends Controller
         array_pop($list);
         Session::forget('cart');
         Session::forget('cartNum');
+
+        $order = Order::where('oid', '=', $oid)->firstOrFail();
+        $list = explode('|', $order->description);
+        array_pop($list);
+        $pdf = PDF::loadView('pdf.receipt', ['order'=> $order, 'list'=> $list]);  
+        Storage::put('public/pdf/receipt.pdf', $pdf->output());
 
         return view('shop.success', ['order'=> $order, 'list'=> $list]);
     }

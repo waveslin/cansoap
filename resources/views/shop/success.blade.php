@@ -13,7 +13,7 @@
                     <span class="font-weight-bold">Thank you</span>
                     <span>for purchasing our products ! please download your receipt (PDF file) </span>
                     <span class="font-weight-bold">
-                    <a href="{{route('soap.receipt', ['oid' => $order->oid])}}">HERE</a>
+                    <a href="/pdf/receipt.pdf">HERE</a>
                     </span>
                     <span>.</span>
                 </div>
